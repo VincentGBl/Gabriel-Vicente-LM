@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header .back-image{
+    background-image: url('imagens/skate.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:cenxter;
+    height: 100vh;
+}
+
+header .back-image .header-content{
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+body{
+
+}
+
+nav{
+    margin: 40px;
+}
+
+nav .title-1{
+    background-color: #8a2be2;
+    margin: 10px 0px 10px 0px;
+}
+
+nav .title-2{
+    background-color: #8a2be2;
+    margin: 10px 0px 10px 0px;
+}
+
+nav .title-3{
+    background-color: #8a2be2;
+    margin: 10px 0px 10px 0px;
+}
+
+nav .title-4{
+    background-color: #8a2be2;
+    margin: 10px 0px 10px 0px;
+}
+
+nav .categoria-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    border: 1px solid black;
+}
+
+nav .categoria-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    border: 1px solid black;
+}
+
+nav .categoria-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    border: 1px solid black;
+}
+
+nav .categoria-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    border: 1px solid black;
+}
+
+nav .categoria-1 h2{
+    border: 1px solid black;
+    height: 8rem;
+    margin: 10px;
+}
+
+nav .categoria-2 h2{
+    border: 1px solid black;
+    height: 8rem;
+    margin: 10px;
+}
+
+nav .categoria-3 h2{
+    border: 1px solid black;
+    height: 8rem;
+    margin: 10px;
+}
+
+nav .categoria-4 h2{
+    border: 1px solid black;
+    height: 8rem;
+    margin: 10px;
+}
+
+footer .rod{
+    text-align: center;
+    background-color: #888;
+}
+
+footer .rod .contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
