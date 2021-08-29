@@ -23,6 +23,30 @@ header .back-image .header-content h1, h2{
     color: white;
 }
 
+/*MOBILE*/
+
+@media screen and (max-width: 380px) {
+    header .back-image{
+        background-image: url('imagens/mobile.jpg');
+        background-size: 500px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position:cenxter;
+        height: 120vh;
+        width: 485px;
+    }
+
+
+
+
+
+}
+
+
+/*MOBILE*/
+
+
+
 /*CONTEUDO PRINCIPAL DO SITE*/
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -99,8 +123,118 @@ nav .categoria-4 h2{
     height: 8rem;
     margin: 10px;
 }
+
+/*MOBILE*/
+
+@media screen and (max-width: 380px){
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    nav{
+        height: 840vh;
+
+    }
+    
+    nav .title-1{
+        background-color: #8a2be2;
+        margin: 10px 0px 10px 0px;
+    }
+    
+    nav .title-2{
+        background-color: #8a2be2;
+        margin: 10px 0px 10px 0px;
+    }
+
+    nav .title-3{
+        background-color: #8a2be2;
+        margin: 10px 0px 10px 0px;
+    }
+    
+    nav .title-4{
+        background-color: #8a2be2;
+        margin: 10px 0px 10px 0px;
+    }
+
+    nav .categoria-1{
+        border: 1px solid blue;
+        width: 410px;
+        height: 200vh;
+        display: grid;
+        grid-template-columns: 205px;
+           
+    }
+    
+    nav .categoria-2{
+        border: 1px solid blue;
+        width: 410px;
+        height: 200vh;
+        display: grid;
+        grid-template-columns: 205px;
+    }
+
+    nav .categoria-3{
+        border: 1px solid blue;
+        width: 410px;
+        height: 200vh;
+        display: grid;
+        grid-template-columns: 205px;
+    }
+    
+    nav .categoria-4{
+        border: 1px solid blue;
+        width: 410px;
+        height: 200vh;
+        display: grid;
+        grid-template-columns: 205px;
+    }
+
+    nav .categoria-1 h2{
+        width: 350px;
+        height: 45vh;
+        text-align: center;
+        color: black;
+        margin-left: 30px;
+    }
+    
+    nav .categoria-2 h2{
+        width: 350px;
+        height: 45vh;
+        text-align: center;
+        color: black;
+        margin-left: 30px;
+    }
+
+    nav .categoria-3 h2{
+        width: 350px;
+        height: 45vh;
+        text-align: center;
+        color: black;
+        margin-left: 30px;
+    }
+    
+    nav .categoria-4 h2{
+        width: 350px;
+        height: 45vh;
+        text-align: center;
+        color: black;
+        margin-left: 30px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
 /*RODAPÉ DO SITE*/
 footer{
+    
 }
 
 footer .rod{
@@ -132,6 +266,7 @@ footer .contato{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
     background-color: #555;
+    
 }
 
 footer .contato .contato-gabriel{
@@ -249,3 +384,161 @@ footer .contato .contato-rafael .fab{
     padding: 10px 0px 10px 0px;
 }
 
+/*MOBILE*/
+
+@media screen and (max-width: 380px) {
+    footer{
+        width: 485px;
+        height: 62vh;
+    }
+    
+    footer .rod{
+        text-align: center;
+        line-height: 2rem;
+        background-color: #777;
+        border-top: 2px solid #555;
+    }
+    
+    footer .rod p{
+        color: white;
+        font-size: 0.6rem;
+    }
+    
+    footer .contato-title{
+        background-color: #444;
+        height: 40px;
+    }
+    
+    footer .contato-title h2{
+        font-size: 1.5rem;
+        margin-left: 20px;
+        padding-top: 5px;
+    }
+    
+    
+    footer .contato{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        background-color: #555;
+        height: 100%;
+        
+    }
+    
+    footer .contato .contato-gabriel{
+        margin: 20px;
+    }
+    
+    footer .contato .contato-gabriel h3{
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    footer .contato .contato-gabriel a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        align-content: center;
+        margin-right: 10px;
+    }
+    
+    footer .contato .contato-gabriel a:hover{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        align-content: center;
+        margin-right: 10px;
+        transition: all .2s;
+    }
+    
+    footer .contato .contato-gabriel .fab{
+        margin-bottom: 20px;
+        font-size: 2rem;
+        background-color: #555;
+        border: 3px solid #888;
+        border-radius: 50%;
+        width: 50px;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    footer .contato .contato-pedro{
+        margin: 20px;
+        
+    }
+    
+    footer .contato .contato-pedro h3{
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    footer .contato .contato-pedro a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        align-content: center;
+        margin-right: 10px;
+    }
+    
+    footer .contato .contato-pedro a:hover{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        align-content: center;
+        margin-right: 10px;
+        transition: all .2s;
+    }
+    
+    footer .contato .contato-pedro .fab{
+        margin-bottom: 20px;
+        font-size: 2rem;
+        background-color: #555;
+        border: 3px solid #888;
+        border-radius: 50%;
+        width: 50px;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    footer .contato .contato-rafael{
+        margin: 20px;
+        
+    }
+    
+    footer .contato .contato-rafael h3{
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    footer .contato .contato-rafael a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        align-content: center;
+        margin-right: 10px;
+    }
+    
+    footer .contato .contato-rafael a:hover{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        align-content: center;
+        margin-right: 10px;
+        transition: all .2s;
+    }
+    
+    footer .contato .contato-rafael .fab{
+        margin-bottom: 20px;
+        font-size: 2rem;
+        background-color: #555;
+        border: 3px solid #888;
+        border-radius: 50%;
+        width: 50px;
+        padding: 10px 0px 10px 0px;
+    }
+    
+}
