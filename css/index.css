@@ -389,7 +389,7 @@ footer .contato .contato-rafael .fab{
 @media screen and (max-width: 380px) {
     footer{
         width: 485px;
-        height: 62vh;
+        height: 53vh;
     }
     
     footer .rod{
@@ -453,6 +453,7 @@ footer .contato .contato-rafael .fab{
     }
     
     footer .contato .contato-gabriel .fab{
+        margin-top: 10px;
         margin-bottom: 20px;
         font-size: 2rem;
         background-color: #555;
@@ -491,6 +492,7 @@ footer .contato .contato-rafael .fab{
     }
     
     footer .contato .contato-pedro .fab{
+        margin-top: 10px;
         margin-bottom: 20px;
         font-size: 2rem;
         background-color: #555;
@@ -532,6 +534,7 @@ footer .contato .contato-rafael .fab{
     }
     
     footer .contato .contato-rafael .fab{
+        margin-top: 10px;
         margin-bottom: 20px;
         font-size: 2rem;
         background-color: #555;
