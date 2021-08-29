@@ -3,7 +3,7 @@
     padding: 0px;
 
 }
-
+/*CABEÇALHO DO SITE*/
 header .back-image{
     background-image: url('imagens/skate.jpg');
     background-attachment: fixed;
@@ -15,11 +15,17 @@ header .back-image{
 header .back-image .header-content{
     font-family: 'Staatliches', cursive;
     font-size: 2rem;
-    margin-left: 20px;
+    background-color: #000;
 }
 
-body{
+header .back-image .header-content h1, h2{
+    margin-left: 20px;
+    color: white;
+}
 
+/*CONTEUDO PRINCIPAL DO SITE*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav{
@@ -93,13 +99,153 @@ nav .categoria-4 h2{
     height: 8rem;
     margin: 10px;
 }
+/*RODAPÉ DO SITE*/
+footer{
+}
 
 footer .rod{
     text-align: center;
-    background-color: #888;
+    line-height: 2rem;
+    background-color: #777;
+    border-top: 2px solid #555;
 }
 
-footer .rod .contato{
+footer .rod p{
+    color: white;
+    font-size: 0.6rem;
+}
+
+footer .contato-title{
+    background-color: #444;
+    height: 40px;
+}
+
+footer .contato-title h2{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+
+footer .contato{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    background-color: #555;
 }
+
+footer .contato .contato-gabriel{
+    margin: 20px;
+}
+
+footer .contato .contato-gabriel h3{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer .contato .contato-gabriel a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    margin-right: 10px;
+}
+
+footer .contato .contato-gabriel a:hover{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    margin-right: 10px;
+    transition: all .2s;
+}
+
+footer .contato .contato-gabriel .fab{
+    
+    font-size: 2rem;
+    background-color: #555;
+    border: 3px solid #888;
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px 0px 10px 0px;
+}
+
+footer .contato .contato-pedro{
+    margin: 20px;
+    
+}
+
+footer .contato .contato-pedro h3{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer .contato .contato-pedro a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    margin-right: 10px;
+}
+
+footer .contato .contato-pedro a:hover{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    margin-right: 10px;
+    transition: all .2s;
+}
+
+footer .contato .contato-pedro .fab{
+    
+    font-size: 2rem;
+    background-color: #555;
+    border: 3px solid #888;
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+
+footer .contato .contato-rafael{
+    margin: 20px;
+    
+}
+
+footer .contato .contato-rafael h3{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer .contato .contato-rafael a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    margin-right: 10px;
+}
+
+footer .contato .contato-rafael a:hover{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    margin-right: 10px;
+    transition: all .2s;
+}
+
+footer .contato .contato-rafael .fab{
+    font-size: 2rem;
+    background-color: #555;
+    border: 3px solid #888;
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px 0px 10px 0px;
+}
+
